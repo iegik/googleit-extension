@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "googleit-extension",
+  "short_name": "Some context menu options",
+  "version": "0.0.1",
+  "description": "Adds some context menu options",
+  "homepage_url": "https://iegik.github.io/googleit-extension/",
+  "permissions": [
+    "contextMenus"
+  ],
+  "icons": {
+    "16": "icons/globalGoogle16.png",
+    "48": "icons/globalGoogle48.png",
+   "128": "icons/globalGoogle128.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
